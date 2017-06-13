@@ -10,7 +10,7 @@ html, body {
 body {
   
 font-family: 'Open Sans', sans-serif;
-  background-image: url('http://i.imgur.com/YDpFwKp.jpg');
+  background-image: url('https://lh3.googleusercontent.com/b3LrNtJkt3SicT6xsA7lxQltpUm20tSeFRPqe5V4FKo7foVrJIHweRjEV_uMH2PIZWgz7P_IeBE6G_bHC9Xy2DPufW5tgad76xERi6qmEHOMGyuAmeW2F82HPZvRRxR-rr74ZpLZxqGneSmsSzqBMeqptEhyRdWMd52eemK9GovrAn4NsN1NpMCPS8dsaeotmZE9vyrCNo_Cv-aGYuOaT9SGu4Jj8XjXESKEAiGYhXevBzA3Iq7-HYNwJksgGsEVbXzQdlpnqY6HVX0PECjGRf7LX4zurx9JwQflMekkOVJ7qBzWzX_etUcjk85DVeHubyHlmTRYciSsL9G7LyDOJotEgietzFFAJofQAm-x_SLbqrok4TEgS2CcmXcWNqvVsqFLfhlQuXW5weWMLIFcoTG5nl55HxAqK-BKVd19qe1ywHEbI1EBXrkIKRjgWoNl8enQarR3G5TDl84NLeMwi2hrMaDw1LP4oQKIOxMx6GH7-Em26yWhQ5iEbtTVusxf4A-ySojAXdHQWb3ECCrbBK5vXg9pp8S9bx7UAI6gbrpl_7Tjp_p6doAy5z52xP4gx-nus45Vn-oJk-4XdOAoXGFZaxCuC3lftpQnV97NKRaDy3P9RgHbXw=w1549-h871-no');
   background-position: center top;
   background-size: cover;
   margin: 0;
@@ -18,7 +18,7 @@ font-family: 'Open Sans', sans-serif;
 
 .page-title {
   text-align: center;
-  font-weight: 100;
+  font-weight: 150;
 }
 
 .page-description {
@@ -36,6 +36,45 @@ font-family: 'Open Sans', sans-serif;
   margin: 2px;
 }
 
+.gallery-item .thumbnail {
 
+}
 
+/* footer */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+
+}
+
+.contact-btn a {
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
 
