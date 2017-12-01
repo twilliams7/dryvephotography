@@ -16,13 +16,29 @@ font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
 
+@font-face{
+    font-family: "Open Sans";
+    src: url('OpenSans.ttf'),
+    url('OpenSans.eot'); /* IE */
+}
+@font-face{
+    font-family: "Open Sans Bold";
+    src: url('OpenSansBold.ttf'),
+    url('OpenSans.eot'); /* IE */
+}
+@font-face{
+    font-family: "Montserrat Bold";
+    src: url('Montserrat-Bold.ttf'),
+    url('Montserrat-Bold.eot'); /* IE */
+}
+
 .page-title {
   text-align: center;
   font-weight: 150;
 }
 
 .page-description {
-  border: 1px solid #000;
+  border: 1px solid #ffffff;
   text-align: center;
 }
 
