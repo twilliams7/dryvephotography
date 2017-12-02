@@ -21,7 +21,7 @@ font-family: 'Open Sans', sans-serif;
   background-image: url("background.jpg");
   background-position: center top;
   background-size: cover;
-  margin: 0;
+  margin: 25px;
 }
 
 @font-face{
@@ -57,7 +57,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .gallery-item {
-  margin: 2px;
+  margin: 5px;
 }
 
 .gallery-item .thumbnail {
