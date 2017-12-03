@@ -1,249 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Home | Dryve Photography</title>
-        
-        <!-- CSS  -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <!-- Inherit Custom Icons -->
-        <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-        
-        <!-- Scripts-->
-        <!-- Initialize SmoothScroll by Piksely (Set to max fps, higher hz monitor wil take great advantage of this feature) Settings can be adjusted in the js file, but I have optimized it -->
-        <script type="text/javascript" src="./js/smoothscroll.js"></script>
-        <!-- Inherit JQuery data for background work -->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <!-- Initialize Material Design theme & elements, src: http://materializecss.com -->
-        <script src="js/materialize.js"></script>
-        <!-- Initialize Javascript data -->
-        <script src="js/init.js"></script>
-        <!-- Animated background -->
-        <style type="text/css">
-            body {
-                overflow:hidden;
-                background-image: url("./img/rick.gif");
-                background-attachment: fixed;
-                background-size: cover;
-                background-repeat: no-repeat;
+<html>
+<head>
+    <title>Dryve Photography</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon"
+		type= "image/ico"
+		href= "dryvecircle.png" />
+</head>
+
+<body>
+    <header>
+      <h1 class="page-title"><p style="font-family:Montserrat Bold;"><font color="white" style="font-size:130%;" LINE-HEIGHT:1px; ><b>DRYVE PHOTOGRAPHY</b></font></h1>
+        <center><p class="page-description"><p style="font-family:Open Sans;"><font color="white" style="font-size:95%;">Dryve Photography is myself; Tyler Williams.  I mainly focus on cars, but I appreciate taking photos of everything.<br>Photography is a hobby for me, but I devote a lot of time to it.  Feel free to contact me if you are interested in a shoot!</font></center></header>
+          
+                 <center><p><b><a href="pics.html" style="color:white" >Gallery</a><font color="white" style="font-size:120%;">   -   </font><a href="about.html" style="color:white">Contact</a>
+        </b></p></center>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail"
+        img {
+          padding:100px;
+          margin:3px;
         }
-        </style>
-        
-    </head>
-    
-    <body class="piksely-bg-white">
-        <!-- Use the FAB to attatch your social media accounts -->
-        <div class="shrink fixed-action-btn">
-            <a class="z-depth-2 btn-floating btn-large teal accent-4 pulse">
-                <i class="mdi mdi-menu"></i>  <!-- Menu -->
-            </a>
-            <ul>
-                <!-- Twitter -->
-                <li class="grow"><a href="#" class="z-depth-2 btn-floating blue"><i class="mdi mdi-twitter"></i></a></li>
-                <!-- Instagram -->
-                <li class="grow"><a href="#" class="z-depth-2 btn-floating pink accent-2"><i class="mdi mdi-instagram"></i></a></li>
-                <!-- Google+ -->
-                <li class="grow"><a href="#" class="z-depth-2 btn-floating red darken-1"><i class="mdi mdi-google-plus"></i></a></li>
-            </ul>
-        </div>
-        <!-- I have disabled the navbar with the logo - Feel free to revert back to this if you make a logo -->
-        <nav class="piksely-bg-white z-depth-0">
-            <a href="#" class="brand-logo center"><img src="./img/logo1.png"></a>
-        </nav>
-        <!-- Standard Navigation Bar with no logo (Fills space) - <nav class="transparent z-depth-0"></nav> -->
-        <div class="container">
-            <div class="section">
-                
-                <!-- Main Gallery Start - Copy and duplicate this then add your new image urls to src - I will create a script to simplify this for you later -->
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/NCmBB5K.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src= "https://i.imgur.com/frfTeku.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/x3JCvDU.jpg">
-                            </div>
-                        </div>
-                    </div>
-                            <div class="col s10 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/F4l9F9r.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/zsJKiGS.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="row">
-                    <div class="col s10 m3">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/5MvBgdk.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s10 m3">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/Z83M38J.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s10 m3">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/w6HQSsb.jpg">
-                            </div>
-                        </div>
-                        </div>
-                    <div class="col s10 m3">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/VsApLzq.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                <div class="row">
-                    <div class="col s10 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/luP9syH.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s10 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/9hqsKu5.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s10 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/VXfDCyP.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                   
-                    <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/2cVEqC7.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/U3fCFZu.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/r7TjVrD.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/0M9uOcO.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/24jtPrn.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             
-                </div>
-                <!-- Main Gallery End - Copy and duplicate this then add your new image urls to src - I will create a script to simplify this for you later -->
-                <!-- Main Gallery Start - Copy and duplicate this then add your new image urls to src - I will create a script to simplify this for you later -->
-            <div class="container">
-            <div class="section">
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/fJZIYdH.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/BLUX4UQ.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/2jNFOLp.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/1oUGJzX.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="materialboxed" src="https://i.imgur.com/KuvEU62.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Main Gallery End - Copy and duplicate this then add your new image urls to src - I will create a script to simplify this for you later -->
-                </div>
-                </div>
-        <!-- Your general footer, contains copyright info & developer info - Feel free to add to this if you plan on upgrading in the future -->
-        <footer class="page-footer">
-            <div class="footer-copyright">
-                <div class="col s12 m6 container grey-text text-lighten-1"><a class="shrink left grey-text text-darken-1">© 2017 Dryve Photography</a><a class="shrink right teal-text text-accent-4" href="http://www.piksely.com"><b>Made by </b>Piksely.com</a></div>
-            </div>
-        </footer>
-    </body>
+        src="1.jpg" width="750">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail"
+         img {
+          padding:100px;
+          margin:3px;
+        }
+        src="3.jpg" width="750">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail"
+         img {
+          padding:100px;
+          margin:3px;
+        }
+        src="10.jpg" width="750">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail"
+         img {
+          padding:100px;
+          margin:3px;
+        }
+        src="12.jpg" width="750">
+      </figure>
+      </div>
+      
+  </body>
 </html>
